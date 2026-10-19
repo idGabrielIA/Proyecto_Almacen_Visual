@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Proyecto_Almacen.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace Proyecto_Almacen
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form_Almacen());
+            Application.Run(new Form_Venta());
         }
     }
 }

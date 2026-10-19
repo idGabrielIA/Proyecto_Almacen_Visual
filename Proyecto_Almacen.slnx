@@ -1,3 +1,9 @@
 <Solution>
-  <Project Path="Proyecto_Almacen/Proyecto_Almacen.csproj" />
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Proyecto_Almacen/Proyecto_Almacen.csproj" Id="a7eafd67-9dc8-457f-8ac8-9171993abd83">
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
 </Solution>
