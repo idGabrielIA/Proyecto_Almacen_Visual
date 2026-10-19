@@ -192,7 +192,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Views\Form_SubCategoria.resx">
+      <DependentUpon>Form_SubCategoria.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -206,8 +210,27 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Img\" />
+    <None Include="Img\nueva-cuenta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\actualizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\borrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\cerrar-sesion %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\guardar-carpeta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\lista-de-verificacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\lupa.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
